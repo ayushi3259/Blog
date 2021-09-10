@@ -1,13 +1,25 @@
+*{
+    margin: 4;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+
 h1,h2{
+    margin: 4%;
+    margin-bottom:30px ;
     font-size: 25px;
     color: red;
     background-color: aqua;
 }
-p{
+p{ 
+    margin-bottom: 10px;
+     margin: 4%;
     font-size: 18px;
     
 }
 img {
+    margin:4
     width: 25%;
     height: auto;
   }
@@ -16,11 +28,32 @@ img {
       text-align:justify;
        
   }
+  .screen-shot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    width: 50%;
+  }
 
   
 .center {
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto ;
     width: 10%;
   } 
+
+  .container{
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .blog-post{
+      width: 70%;
+      float: left;
+  }
+  .authors{
+      float:right;
+
+
+  }
